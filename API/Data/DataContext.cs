@@ -16,7 +16,7 @@ namespace API.Data
         {
         }
 
-        // Setovanje korisnika, tip podatka je AppUser, tabela u bazi je Users
+        // Setovanje korisnika, tip podatka je AppUser, tabela u bazi je Users.
         public DbSet<AppUser> Users { get; set; }
 
         internal object Find(int id)
